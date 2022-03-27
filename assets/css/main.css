@@ -1,0 +1,17 @@
+html {
+  background-color: black;
+  color: white;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s ease-out;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateY(-1rem);
+}
+.page-leave-active {
+  opacity: 0;
+  transform: translateY(2rem);
+}
