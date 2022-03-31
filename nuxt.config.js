@@ -45,6 +45,6 @@ export default {
   },
 
   generate: {
-    dir: 'dist'
+    dir: '@/dist'
   }
 }
